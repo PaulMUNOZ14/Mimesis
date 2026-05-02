@@ -23,6 +23,11 @@ center = (size[0] // 2, size[1] // 2)               # |
 clock = py.time.Clock()                             # |
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'datas')    # chemin vers le répertoire data
+DB_PATH = os.path.join(DATA_DIR, 'sauvegarde.db')   # chemin vers le fichier de base de données
+
+# Si la base de données n'existe pas, on la crée
+if not os.path.exists(DB_PATH):
+    import crée_tables
 
 bg = py.image.load(os.path.join(DATA_DIR, "wall.png")).convert_alpha()                      # |
 bg = py.transform.smoothscale(bg, (bg.get_width(), bg.get_height()))                        # | importation des

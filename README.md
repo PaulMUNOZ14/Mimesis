@@ -138,8 +138,8 @@ sera alors perdue.
 #### Outils : VSCode - DB Browser
 
 ---
-Ce projet est sous licence [GNU GPL v3+](licence.txt)
+Ce projet est sous licence [GNU GPL v3+](LICENSE)
 
 Ce fichier README a été généré le [2025-01-17] par [Paul MUNOZ].
 
-Dernière mise-à-jour le : [2025-03-18].
+Dernière mise-à-jour le : [2026-05-02].
