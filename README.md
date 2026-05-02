@@ -32,10 +32,10 @@ améliorer au dispositif de protection.
 #
 Touches par défaut en jeu :
 
-Avancer        : Z
-Reculer        : S
-Aller à Gauche : Q
-Aller à Droite : D
+Avancer        : Flèche haut
+Reculer        : Flèche bas
+Aller à Gauche : Flèche gauche
+Aller à Droite : Flèche droite
 Intéragir      : F
 
 #
